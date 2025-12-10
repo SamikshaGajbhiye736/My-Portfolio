@@ -1,0 +1,134 @@
+.footer {
+  background: #000;
+  color: #fff;
+  padding: 90px 0 50px;
+  font-family: Poppins;
+}
+
+/* GRID */
+.footer-container {
+  width: 90%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 60px;
+}
+
+/* Logo */
+.footer-logo {
+  font-size: 32px;
+  font-weight: 900;
+}
+.footer-logo span {
+  color: #ff784e;
+}
+.footer-about-text{
+  margin-top:10px;
+  line-height:1.7;
+  opacity:.9;
+  max-width:300px;
+}
+
+/* Titles */
+.footer-col h3 {
+  font-size:18px;
+  margin-bottom:15px;
+}
+
+/* List */
+.footer-col ul li a {
+  color:#ccc;
+  text-decoration:none;
+  display:block;
+  margin:8px 0;
+  transition:.3s;
+}
+.footer-col ul li a:hover{
+  color:#ff784e;
+  padding-left:4px;
+}
+
+/* Newsletter box */
+.news-text{
+  font-size:14px;
+  opacity:.85;
+  max-width:240px;
+  margin-bottom:15px;
+}
+
+.news-area .newsletter-box{
+  display:flex;
+  gap:10px;
+}
+
+.news-area input{
+  background:#111;
+  border:none;
+  outline:none;
+  color:#fff;
+  padding:10px 14px;
+  border-radius:5px;
+  width:180px;
+}
+.news-area button{
+  background:#ff784e;
+  border:none;
+  padding:10px 20px;
+  border-radius:5px;
+  font-weight:600;
+  cursor:pointer;
+  transition:.3s;
+}
+.news-area button:hover{
+  background:#ffa37f;
+}
+
+/* Social */
+.footer-social{
+  display:flex;
+  gap:12px;
+}
+.social-btn{
+  background:#111;
+  padding:10px;
+  font-size:18px;
+  border-radius:50%;
+  transition:.3s;
+}
+.social-btn:hover{
+  background:#ff784e;
+}
+
+/* Copyright */
+.footer-copy{
+  margin-top:50px;
+  text-align:center;
+  font-size:14px;
+  opacity:.7;
+}
+.footer-copy span{
+  color:#ff784e;
+}
+
+/* Responsive */
+@media(max-width:950px){
+  .footer-container{
+    grid-template-columns:repeat(2,1fr);
+  }
+}
+
+@media(max-width:550px){
+  .footer-container{
+    grid-template-columns:1fr;
+    text-align:left;
+  }
+  .news-area .newsletter-box{
+    flex-direction:column;
+  }
+}
+.footer-copy a{
+  text-decoration: none !important;
+}
+.social-btn:hover{
+  transform: translateY(-5px) scale(1.1);
+}

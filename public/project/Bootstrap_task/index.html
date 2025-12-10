@@ -1,0 +1,953 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="./assets/images/favicon.png" />
+    <title>Home | Plumbio</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+
+    <!-- navbar section starts -->
+
+    <!-- 🔸 Top Info Bar -->
+  <div class="top-bar text-white py-2 px-3">
+    <div class="container d-flex justify-content-between align-items-center flex-wrap">
+      <div class="wlc pt-lg-3">
+        <span class="fs-6">Welcome to <span class="text-primary fw-bold">Plumbio</span> Plumbing & Repairing Service.</span>
+      </div>
+      <div class="d-flex align-items-center flex-wrap">
+        <span class="me-3 fs-5 pb-lg-3">
+          <i class="fa-regular fa-clock me-1"></i> Work Time: Mon - Fri 09AM - 6PM
+        </span>
+        <div class="social-links pb-lg-3">
+          <a class="fs-5" href="https://facebook.com"><i class="fab fa-facebook-f"></i></a>
+          <a class="fs-5" href="https://twitter.com"><i class="fab fa-twitter"></i></a>
+          <a class="fs-5" href="https://linkedin.com"><i class="fab fa-linkedin-in"></i></a>
+          <a class="fs-5" href="https://instagram.com"><i class="fab fa-instagram"></i></a>
+          <a class="fs-5" href="https://youtube.com"><i class="fab fa-youtube"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 🔸 Middle Contact Section -->
+  <div class="middle-bar py-3 border-bottom">
+    <div class="container d-flex flex-wrap justify-content-between align-items-center">
+      <div class="logo text-uppercase fw-bold fs-4">
+        <a class="text-dark fw-bold" href=""><i class="fa-solid fa-faucet-drip faucet"></i>Plumbio</a>
+      </div>
+
+      <div class="contact-info d-flex flex-wrap align-items-center text-center text-md-start">
+        <div class="info-item mx-3">
+          <a href="tel:16326543654"><i class="fa-solid fa-phone-volume fs-4 call-icon"></i></a>
+          <div>
+            <small>Call Us Any Time:</small><br />
+            <a href="tel:16326543654"><strong class="text-dark">+163-2654-3654</strong></a>
+          </div>
+        </div>
+
+        <div class="info-item mx-3">
+          <a href="mailto:info@plumer.com"><i class="fa-solid fa-envelope fs-4 call-icon"></i></a>
+          <div>
+            <small>Email Us:</small><br />
+            <a href="mailto:info@plumer.com"><strong class="text-dark">info@plumer.com</strong></a>
+          </div>
+        </div>
+
+        <div class="info-item mx-3">
+          <a href="//www.google.com/maps/place/Nagpur,+Maharashtra" target="_blank" target="_blank">
+            <i class="fa-solid fa-location-dot fs-4 call-icon"></i>
+          </a>
+          <div>
+            <small>Our Office Location:</small><br />
+            <strong>Nagpur, Maharashtra</strong>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 🔸 Main Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm">
+    <div class="container">
+
+         <!-- logo -->
+
+      <div class="logo text-uppercase fw-bold fs-4 d-lg-none ms-2">
+          <a class="text-dark fw-bold" href="#">
+          <i class="fa-solid fa-faucet-drip faucet"></i> Plumbio
+        </a>
+      </div>
+
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarNav"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+
+    
+
+
+      <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item mx-2"><a href="./index.html" class="nav-link active text-dark fw-bold">Home <span class="text-danger"><i class="fa-solid fa-plus"></i></span></a></li>
+          <li class="nav-item mx-2"><a href="./about.html" class="nav-link text-dark fw-bold">About Us</a></li>
+          <li class="nav-item mx-2"><a href="./service.html" class="nav-link text-dark fw-bold">Services <span class="text-danger"><i class="fa-solid fa-plus"></i></span></a></li>
+          <li class="nav-item mx-2"><a href="./blog.html" class="nav-link text-dark fw-bold">Blog <span class="text-danger"><i class="fa-solid fa-plus"></i></span></a></li>
+          <li class="nav-item mx-2"><a href="./contact.html" class="nav-link text-dark fw-bold">Contact</a></li>
+        </ul>
+      </div>
+
+      <div class="navbar-icons d-flex cont-3">
+        <a href="#" class="nav-icon"><i class="fa-solid fa-magnifying-glass"></i></a>
+        <a href="#" class="nav-icon position-relative">
+          <i class="fa-solid fa-cart-shopping"></i>
+          <span class="badge bg-danger position-absolute top-0 start-100 translate-middle p-1 rounded-circle">5</span>
+        </a>
+        <a href="#" class="nav-icon position-relative">
+          <i class="fa-solid fa-heart"></i>
+          <span class="badge bg-danger position-absolute top-0 start-100 translate-middle p-1 rounded-circle">4</span>
+        </a>
+      </div>
+    </div>
+    </nav>
+
+
+    <!-- Hero section starts -->
+
+   
+<section class="hero-section position-relative text-white">
+  <div class="overlay"></div>
+  <div class="container">
+    <div id="textCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="4000">
+      <div class="carousel-inner">
+
+        <div class="carousel-item active">
+          <h5><i class="fa-solid fa-screwdriver-wrench me-2"></i>Plumbing Services Is Our Passion</h5>
+          <h1>Our Popular Services<br>About Plumbing</h1>
+          <p class="text-justify">Looking for reliable plumbing services? Look no further than our team of expert plumbers! We offer a wide range of plumbing solutions to meet all your needs.</p>
+          <div class="btn-group mt-4">
+            <button class="btn btn-primary-custom"><a class="text-light" href="./about.html">DISCOVER MORE</a> <i class="fa-solid fa-arrow-right-long ms-2"></i></button>
+            <button class="btn btn-outline-custom conc"><a class="text-light" href="./contact.html">CONTACT US</a> <i class="fa-solid fa-arrow-right-long ms-2"></i></button>
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          <h5><i class="fa-solid fa-screwdriver-wrench me-2"></i>Fast, Reliable, Affordable</h5>
+          <h1>Expert Pipe Repair & Installation</h1>
+          <p class="text-justify">We provide professional pipe repair, maintenance, and installation with guaranteed satisfaction and quality workmanship.</p>
+          <div class="btn-group mt-4">
+            <button class="btn btn-primary-custom"><a class="text-light" href="./about.html">DISCOVER MORE</a> <i class="fa-solid fa-arrow-right-long ms-2"></i></button>
+            <button class="btn btn-outline-custom conc"><a class="text-light" href="./contact.html">CONTACT US</a> <i class="fa-solid fa-arrow-right-long ms-2"></i></button>
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          <h5><i class="fa-solid fa-screwdriver-wrench me-2"></i>24/7 Service, Anytime You Need</h5>
+          <h1>Emergency Plumbing Solutions</h1>
+          <p class="text-justify">Our emergency plumbers are ready to fix leaks, clogs, and all your urgent plumbing issues — anytime, anywhere.</p>
+          <div class="btn-group mt-4">
+            <button class="btn btn-primary-custom"><a class="text-light" href="./about.html">DISCOVER MORE</a> <i class="fa-solid fa-arrow-right-long ms-2"></i></button>
+            <button class="btn btn-outline-custom conc"><a class="text-light" href="./contact.html">CONTACT US</a> <i class="fa-solid fa-arrow-right-long ms-2"></i></button>
+          </div>
+        </div>
+      </div>
+
+      <!-- left-right buttons -->
+      <div class="carousel-controls">
+        <button class="carousel-control-prev" type="button" data-bs-target="#textCarousel" data-bs-slide="prev">
+          <i class="fa-solid fa-arrow-left"></i>
+        </button>
+        <button class="carousel-control-next right-arrow" type="button" data-bs-target="#textCarousel" data-bs-slide="next">
+          <i class="fa-solid fa-arrow-right"></i>
+        </button>
+      </div>
+    </div>
+  </div>
+</section>
+
+  <!-- brands section starts-->
+
+  <section class="brands-section">
+  <div class="container-fluid px-0">
+    <div class="row g-0 align-items-center">
+      <!-- left side -->
+      <div class="col-md-4 col-12 text-white text-start p-5 brand-text">
+        <p class="small-text mb-2">OUR TRUSTED PARTNER</p>
+        <h2 class="fw-bold mb-0 text-justify">
+          The Brands we work with<br/>and believe in...
+        </h2>
+      </div>
+
+      <!-- right side carousel -->
+      <div class="col-md-8 col-12 bg-light py-4 brand-2">
+        <div id="brandCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="2500">
+          <div class="carousel-inner text-center">
+            <div class="carousel-item active">
+              <div class="d-flex justify-content-around flex-wrap align-items-center">
+                <img src="./assets/images/logo-1.png" class="brand-logo" alt="brand1">
+                <img src="./assets/images/logo-2.png" class="brand-logo" alt="brand2">
+                <img src="./assets/images/logo-3.png" class="brand-logo" alt="brand3">
+                <img src="./assets/images/logo-4.png" class="brand-logo" alt="brand4">
+                <img src="./assets/images/logo-5.png" class="brand-logo" alt="brand5">
+              </div>
+            </div>
+
+            <div class="carousel-item">
+              <div class="d-flex justify-content-around flex-wrap align-items-center">
+                <img src="./assets/images/logo-1.png" class="brand-logo" alt="brand6">
+                <img src="./assets/images/logo-2.png" class="brand-logo" alt="brand7">
+                <img src="./assets/images/logo-3.png" class="brand-logo" alt="brand8">
+                <img src="./assets/images/logo-4.png" class="brand-logo" alt="brand9">
+                <img src="./assets/images/logo-5.png" class="brand-logo" alt="brand10">
+              </div>
+            </div>
+          </div>
+
+        
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+  <!-- about section starts -->
+
+  <section class="about-section container">
+  <div class="row align-items-center">
+    <!-- Left side (images) -->
+    <div class="col-lg-6 position-relative left-img mb-5 mb-lg-0">
+      <img class="plumb-1" src="./assets/images/sanitary-technician-gesturing-thumb-up.jpg" alt="Plumber working">
+      <div class="experience-badge text-center">
+        <h2>24</h2>
+        <p class="text-center">Years Experience<br>Plumbing Services</p>
+      </div>
+      <div class="mini-img">
+        <img class="plum-1" src="./assets/images/cheerful-asian-plumber-standing-near-kitchen-sink-showing-thumb-up.jpg" alt="Plumber in uniform">
+      </div>
+    </div>
+
+    <!-- Right side (text content) -->
+    <div class="col-lg-6 about-content">
+      <h5><i class="fa-solid fa-wrench"></i> About Our Company</h5>
+      <h2>Our Company Provide The Best Plumbing Service</h2>
+      <p class="cont-1">Our skilled technicians are equipped with the latest tools and technology to quickly diagnose and solve any plumbing issue. We're available 24/7 for repairs, so you can rest easy knowing we're always just a phone call away. We pride ourselves on providing prompt and affordable service.</p>
+
+      <div class="d-flex flex-wrap gap-3 my-4">
+        <div class="feature-box">
+          <i class="bi bi-check-circle-fill"></i>
+          <span class="fw-bold">Planning</span>
+        </div>
+        <div class="feature-box">
+          <i class="bi bi-check-circle-fill"></i>
+          <span class="fw-bold">Replacing</span>
+        </div>
+        <div class="feature-box">
+          <i class="bi bi-check-circle-fill"></i>
+          <span class="fw-bold">Installing</span>
+        </div>
+      </div>
+
+      <button class="btn btn-custom"><a class="text-light" href="./about.html">ABOUT MORE</a></button>
+    </div>
+  </div>
+</section>
+
+
+<!-- service section starts -->
+
+<div class="services">
+       <div class="serv">
+        <div>
+         <h2 class="section-title text-danger fs-5"><i class="fa-solid fa-wrench"></i>Our Services</h2>
+        <h2 class="fw-bold fs-1 serv-1">See Our Plumbing Services</h2>
+       </div>
+
+        <div class="explore-all mb-5">
+            <a href="./service.html" class="explore-btn">EXPLORE ALL SERVICES</a>
+        </div>
+       </div>
+        
+        <div class="row g-5 mb-4">
+        <div class="col-md-4">
+            <div class="service-card text-center">
+               <a class="sink" href=""><i class="fa-solid fa-sink"></i></a>
+                <h3 class="service-title">Drain Plumbing</h3>
+                <p class="service-description text-justify">Drain plumbing is a critical component of any homes plumbing system. When drains become clogged or damaged, it can cause a host of problems.</p>
+                <a href="./service.html" class="read-more">READ MORE</a>
+            </div>
+        </div>
+        
+        <div class="col-md-4">
+            <div class="service-card text-center">
+               <a class="sink" href=""><i class="fa-solid fa-shower"></i></a>
+                <h3 class="service-title">Water Line Repair</h3>
+                <p class="service-description text-justify">A broken or leaking water line can cause significant damage to your home and property. If you suspect a problem with your water line.</p>
+                <a href="./service.html" class="read-more">READ MORE</a>
+            </div>
+        </div>
+        
+        <div class="col-md-4">
+            <div class="service-card text-center">
+              <a class="sink" href=""><i class="fa-solid fa-toilet"></i></a>
+                <h3 class="service-title">Bathroom Plumbing</h3>
+                <p class="service-description text-justify">Bathroom plumbing is a critical part of any homes plumbing system. From sinks and toilets to showers and bathtubs, your bathroom plumbing.</p>
+                <a href="./service.html" class="read-more">READ MORE</a>
+            </div>
+        </div>
+    </div>
+    </div>
+
+
+    <!-- emergency section starts-->
+
+    <section class="emergency-section">
+  <div class="container emergency-content">
+    <div class="row align-items-center g-4">
+      <div class="col-md-2 col-4">
+        <div class="icon-box">
+          <i class="fa-solid fa-phone-volume"></i>
+        </div>
+      </div>
+      <div class="col-md-4 col-8">
+        <p class="text-uppercase small mb-1">Emergency Services</p>
+        <h3 class="fw-bold">Having an urgent <br> problem and can’t <br> wait?</h3>
+      </div>
+      <div class="col-md-6">
+        <form id="emergencyForm" class="row g-2">
+          <div class="col-md-3 col-12">
+            <input type="text" class="form-control" placeholder="Your Name *" required>
+          </div>
+          <div class="col-md-3 col-12">
+            <input type="email" class="form-control" placeholder="Your Email *" required>
+          </div>
+          <div class="col-md-3 col-12">
+            <input type="number" class="form-control" placeholder="Phone Number *" required>
+          </div>
+          <div class="col-md-3 col-12 text-end">
+            <button type="submit" class="submit-btn mt-2">SUBMIT NOW</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- solution section starts -->
+
+    <section class="solution">
+  <div class="container">
+    <div class="row align-items-center gx-4 gy-4">
+      <!-- left column -->
+      <div class="col-lg-6">
+        <p class="solution-title"><i class="fas fa-wrench me-2"></i>Why Choosing Our Services</p>
+        <h2 class="solution-heading">The Perfect Solutions For All Plumbing Services</h2>
+        <p class="solution-text">
+          Leaking or broken plumbing can cause a lot of stress and inconvenience for homeowners.
+          That's why it's important to choose a plumbing service that you can trust to provide expert, reliable service.
+        </p>
+
+        <div class="row g-3">
+          <div class="col-md-6">
+            <div class="info-card">
+              <i class="fas fa-hand-holding-usd"></i>
+              <h5>Affordable Price</h5>
+              <p>We provide pricing & detailed estimates, so know what expect work begins.</p>
+            </div>
+          </div>
+
+          <div class="col-md-6">
+            <div class="info-card">
+              <i class="fas bi bi-person-fill"></i>
+              <h5>Expert Plumber</h5>
+              <p>Our plumbers are licensed, and have years of experience all types plumbing.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- right column (plumber image, video card, faucet svg, emergency bubble) -->
+      <div class="col-lg-6">
+        <div class="right-wrap">
+
+          <!-- TOP IMAGE (plumber under sink) -->
+          <!-- Replace src with your own image if required -->
+          <img class="top-image" src="./assets/images/portrait-man-working-as-plumber.jpg" alt="Plumber working">
+
+          <!-- Faucet SVG decorative (optional) -->
+          <svg class="faucet-svg" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <g fill="none" stroke="#2b2b2b" stroke-width="2">
+              <path d="M40 8h8a6 6 0 0 1 6 6v6"/>
+              <path d="M18 18h16v14a6 6 0 0 1-6 6H18"/>
+              <path d="M22 42v6a6 6 0 0 0 6 6h8" />
+              <circle cx="28" cy="16" r="2" fill="#ff3c00" />
+            </g>
+          </svg>
+
+          <!-- VIDEO CARD (framed image with play) -->
+          <div class="video-card ms-auto">
+            <!-- Replace thumbnail with your desired video thumbnail -->
+            <img class="video-thumb" src="./assets/images/video-img.png" alt="Video thumbnail">
+
+            <!-- Play button (opens modal) -->
+            <div class="video-play" id="playBtn" role="button" aria-label="Play Video">
+              <i class="fas fa-play"></i>
+            </div>
+
+            <!-- emergency bubble overlapped -->
+            
+          </div>
+
+          <div class="emergency-bubble">
+              <h3>24</h3>
+              <p>Hours Emergency Services</p>
+            </div>
+
+        </div>
+      </div> <!-- col-lg-6 right -->
+    </div>
+  </div>
+</section>
+
+<!-- ============ Modal for YouTube video ============ -->
+<div class="modal fade" id="videoModal" tabindex="-1" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-lg">
+    <div class="modal-content bg-transparent border-0">
+      <div class="modal-body p-0">
+        <!-- iframe inserted dynamically to control autoplay and stop when closed -->
+        <iframe id="youtubeFrame"
+                src=""
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin"
+                allowfullscreen
+                style="width:100%; height:480px; border-radius:8px; overflow:hidden;">
+        </iframe>
+      </div>
+    </div>
+  </div>
+</div>
+
+  <!-- counter section starts -->
+
+  
+<section class="counter-section">
+  <div class="container">
+    <div class="row text-center">
+      <div class="col-md-3 col-6 mb-4 mb-md-0">
+        <div class="counter-box">
+          <h3 class="counter-number" data-target="1.25" data-suffix="k">0</h3>
+          <p class="counter-text">Successful Projects</p>
+        </div>
+      </div>
+
+      <div class="col-md-3 col-6 mb-4 mb-md-0">
+        <div class="counter-box">
+          <h3 class="counter-number" data-target="1.24" data-suffix="k">0</h3>
+          <p class="counter-text">Satisfied Customers</p>
+        </div>
+      </div>
+
+      <div class="col-md-3 col-6 mb-4 mb-md-0">
+        <div class="counter-box">
+          <h3 class="counter-number" data-target="250" data-suffix="+">0</h3>
+          <p class="counter-text">Expert Plumbers</p>
+        </div>
+      </div>
+
+      <div class="col-md-3 col-6">
+        <div class="counter-box">
+          <h3 class="counter-number" data-target="100" data-suffix="%">0</h3>
+          <p class="counter-text">Quality Products</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- team section starts -->
+        
+ <section class="team-section">
+    <div class="container">
+      <div class="team-heading">
+        <h5><i class="fa-solid fa-screwdriver-wrench"></i> Expert Team</h5>
+        <h2 class="text-light">Meet The Expert Plumber</h2>
+      </div>
+
+      <div class="row gy-4">
+        <!-- Team Member 1 -->
+        <div class="col-md-3 col-sm-6">
+          <div class="team-card">
+            <img src="./assets/images/plumb-1.png" alt="Jesica">
+            <div class="team-info">
+              <div class="social-icon"><i class="fa-solid fa-share-nodes"></i></div>
+              <div class="text cont-2">
+                <h5 class="text-center">Jesica Sinthiya</h5>
+                <p>Electrician</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Team Member 2 -->
+        <div class="col-md-3 col-sm-6">
+          <div class="team-card">
+            <img src="./assets/images/plumb-2.png" alt="Alex">
+            <div class="team-info">
+              <div class="social-icon"><i class="fa-solid fa-share-nodes"></i></div>
+              <div class="text cont-2">
+                <h5>Alex Michel</h5>
+                <p>Carpenter</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Team Member 3 -->
+        <div class="col-md-3 col-sm-6">
+          <div class="team-card">
+            <img src="./assets/images/plumb-3.png" alt="Henry">
+            <div class="team-info">
+              <div class="social-icon"><i class="fa-solid fa-share-nodes"></i></div>
+              <div class="text cont-2">
+                <h5>Henry Joseph</h5>
+                <p>Plumber</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Team Member 4 -->
+        <div class="col-md-3 col-sm-6">
+          <div class="team-card">
+            <img src="./assets/images/plumb-4.png" alt="Sanjida">
+            <div class="team-info">
+              <div class="social-icon"><i class="fa-solid fa-share-nodes"></i></div>
+              <div class="text cont-2">
+                <h5>Sanjida Carlose</h5>
+                <p>Plumber</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+      
+
+  <!-- faq section starts -->
+
+
+  <section class="faq-wrapper">
+    <div class="container">
+      <div class="row align-items-center">
+        <!-- LEFT CONTENT -->
+        <div class="col-lg-6 faq-left">
+          <h5><i class="fa-solid fa-screwdriver-wrench"></i> Frequently Asked Have Any Question?</h5>
+          <h2>Professional Residential And Commercial Plumbing Repair</h2>
+          <p>
+            We understand that plumbing issues can be stressful and disruptive to your daily routine,
+            which is why we provide prompt and efficient service to minimize any inconvenience.
+            You can trust that you’re getting expert service.
+          </p>
+          <button class="btn"><a class="text-light" href="./contact.html">Ask Questions</a></button>
+        </div>
+
+        <!-- RIGHT ACCORDION -->
+        <div class="col-lg-6">
+          <div class="accordion" id="faqAccordion">
+            <!-- Dynamic FAQs loaded by JS -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- working section starts -->
+
+  <section class="working-process-section">
+        <h1 class="section-main-title text-danger fs-6"><i class="fas fa-wrench me-2"></i>How It's Work</h1>
+        <h2 class="section-subtitle text-dark fw-bold fs-2">Our Standard Working Process</h2>
+        
+        <div class="row g-5">
+            <div class="col-md-4">
+                <div class="process-card">
+                  <img class="img-1" src="./assets/images/battlecreek-coffee-roasters-NfG4rXmceFM-unsplash.jpg" alt="">
+                    <h3 class="process-title">Online Booking</h3>
+                    <p class="process-description text-justify">Online booking typically involves selecting a date and time, choosing from available options, providing personal.</p>
+                </div>
+            </div>
+            
+            <div class="col-md-4">
+                <div class="process-card">
+                  <img class="img-1" src="./assets/images/marian-florinel-condruz-C-oYJoIfgCs-unsplash.jpg" alt="">
+                    <h3 class="process-title">Inspect & Analyze</h3>
+                    <p class="process-description text-justify">Inspect and analyze refers to the process of examining something closely in order to gain a better understanding.</p>
+                </div>
+            </div>
+            
+            <div class="col-md-4">
+                <div class="process-card">
+                  <img class="img-1" src="./assets/images/timur-shakerzianov-c314Gh8dXAo-unsplash.jpg" alt="">
+                    <h3 class="process-title">Solving Problem</h3>
+                    <p class="process-description text-justify">Solving a problem refers to the process of finding a solution to a particular issue or challenge that is preventing outcome.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- project section starts -->
+
+    <section class="projects-section py-5">
+  <div class="container">
+    <div class="d-flex justify-content-between align-items-center mb-4">
+      <div>
+        <span class="text-danger fw-semibold">🔧 Latest Projects</span>
+        <h2 class="fw-bold mt-2">Our Completed Projects</h2>
+      </div>
+      <div>
+        <button class="btn btn-light border me-2" id="prevBtn"><i class="bi bi-arrow-left"></i></button>
+        <button class="btn btn-light border" id="nextBtn"><i class="bi bi-arrow-right"></i></button>
+      </div>
+    </div>
+
+    <div id="projectsCarousel" class="d-flex overflow-hidden">
+      <div class="project-card me-3 flex-shrink-0">
+        <div class="project-img position-relative">
+          <img src="./assets/images/marian-florinel-condruz-C-oYJoIfgCs-unsplash.jpg" class="img-fluid" alt="Project 1" />
+          <div class="project-overlay position-absolute bottom-0 start-0 w-100 p-3">
+            <p class="text-danger mb-0 small">Kitchen</p>
+            <h5 class="text-white">Drain Plumbing</h5>
+            <button class="btn btn-dark btn-sm rounded-circle">+</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-card me-3 flex-shrink-0">
+        <div class="project-img position-relative">
+          <img src="./assets/images/battlecreek-coffee-roasters-NfG4rXmceFM-unsplash.jpg" class="img-fluid" alt="Project 2" />
+        </div>
+      </div>
+
+      <div class="project-card me-3 flex-shrink-0">
+        <div class="project-img position-relative">
+          <img src="./assets/images/cheerful-asian-plumber-standing-near-kitchen-sink-showing-thumb-up.jpg" class="img-fluid" alt="Project 3" />
+        </div>
+      </div>
+
+      <div class="project-card me-3 flex-shrink-0">
+        <div class="project-img position-relative">
+          <img src="./assets/images/jacek-dylag-Vve7XkiUq_Y-unsplash.jpg" class="img-fluid" alt="Project 4" />
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- testimonial section starts -->
+
+<section class="testimonial-section text-center container">
+    <h6><i class="fa-solid fa-wrench me-2"></i>Testimonials</h6>
+    <h2>What Our Customer Says?</h2>
+
+    <div class="row justify-content-center g-4">
+      <!-- Testimonial 1 -->
+      <div class="col-md-5">
+        <div class="testimonial-card text-start">
+          <div class="d-flex align-items-center mb-3">
+            <img
+              src="./assets/images/test-1.png"
+              alt="Abraham Khalil"
+              class="me-3"
+            />
+            <div>
+              <h5>Abraham Khalil</h5>
+              <span>CEO at Corola</span>
+            </div>
+          </div>
+
+          <div class="testimonial-text">
+            If you are looking for a reliable and efficient plumbing service,
+            look no further than Plumbio Plumbing. I recently had an issue with my
+            kitchen sink that was causing water to leak onto my floor. I called
+            XYZ Plumbing.
+          </div>
+
+          <div class="star-rating">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+          </div>
+
+          <div class="red-line"></div>
+        </div>
+      </div>
+
+      <!-- Testimonial 2 -->
+      <div class="col-md-5">
+        <div class="testimonial-card text-start">
+          <div class="d-flex align-items-center mb-3">
+            <img
+              src="./assets/images/test-2.png"
+              alt="Mariana Sonia"
+              class="me-3"
+            />
+            <div>
+              <h5>Mariana Sonia</h5>
+              <span>UI/UX Designer</span>
+            </div>
+          </div>
+
+          <div class="testimonial-text">
+            Overall, I was very impressed with the service I received from Plumbio
+            Plumbing. The staff was friendly and knowledgeable, and the work was
+            completed quickly and effectively. I would highly recommend this
+            plumbing.
+          </div>
+
+          <div class="star-rating">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+          </div>
+
+          <div class="red-line"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- call section starts -->
+
+   <section class="cta-section">
+    <div class="cta-content">
+      <div>
+        <i class="fa-solid fa-phone me-2 text-danger"></i>
+        <a href="tel:16326543654" class="tel-link">+163-2654-3654</a>
+      </div>
+      <h2>
+        Looking For A Local Plumber In Your Area<br />
+        Contact Us Now!
+      </h2>
+
+      <div class="d-flex justify-content-center flex-wrap gap-3">
+        <a href="./contact.html" class="cta-btn btn-primary-custom">Book A Online</a>
+        <a href="./contact.html" class="cta-btn btn-outline-custom">Contact Us</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- blog section starts -->
+
+   <section class="container py-5 text-center">
+    <!-- Section Title -->
+    <div class="mb-4">
+      <h6 class="text-danger fw-semibold">
+        <i class="fa-solid fa-wrench me-2"></i>Blogs
+      </h6>
+      <h2 class="fw-bold">Our Latest New And Articles</h2>
+    </div>
+
+    <!-- Blog Cards -->
+    <div class="row g-4 justify-content-center">
+      
+      <!-- Blog 1 -->
+      <div class="col-md-4">
+        <div class="card border-0 shadow-sm h-100">
+          <div class="position-relative">
+            <img src="./assets/images/battlecreek-coffee-roasters-NfG4rXmceFM-unsplash.jpg" class="card-img-top" alt="Blog 1">
+            <div class="position-absolute top-0 start-0 bg-danger text-white text-center py-2 px-3">
+              <h6 class="mb-0 fw-bold">17<br><small>JAN</small></h6>
+            </div>
+          </div>
+          <div class="card-body text-start">
+            <p class="text-muted small mb-2">
+              <i class="fa-solid fa-user me-1 text-danger"></i> By Plumer
+              <i class="fa-solid fa-tag ms-3 me-1 text-danger"></i> Air Condition
+            </p>
+            <h5 class="fw-semibold">Global Business Goal Make Life From Tech</h5>
+          </div>
+          <div class="card-footer bg-transparent border-0 text-start pb-4 ps-3">
+            <a href="#" class="btn btn-danger btn-sm rounded-0 text-uppercase fw-semibold px-4">Read More</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Blog 2 -->
+      <div class="col-md-4">
+        <div class="card border-0 shadow-sm h-100">
+          <div class="position-relative">
+            <img src="./assets/images/timur-shakerzianov-c314Gh8dXAo-unsplash.jpg" class="card-img-top" alt="Blog 2">
+            <div class="position-absolute top-0 start-0 bg-danger text-white text-center py-2 px-3">
+              <h6 class="mb-0 fw-bold">19<br><small>JAN</small></h6>
+            </div>
+          </div>
+          <div class="card-body text-start">
+            <p class="text-muted small mb-2">
+              <i class="fa-solid fa-user me-1 text-danger"></i> By Plumer
+              <i class="fa-solid fa-tag ms-3 me-1 text-danger"></i> Electricity
+            </p>
+            <h5 class="fw-semibold">Until recently the prevailin view assumed</h5>
+          </div>
+          <div class="card-footer bg-transparent border-0 text-start pb-4 ps-3">
+            <a href="#" class="btn btn-danger btn-sm rounded-0 text-uppercase fw-semibold px-4">Read More</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Blog 3 -->
+      <div class="col-md-4">
+        <div class="card border-0 shadow-sm h-100">
+          <div class="position-relative">
+            <img src="./assets/images/portrait-man-working-as-plumber.jpg" class="card-img-top" alt="Blog 3">
+            <div class="position-absolute top-0 start-0 bg-danger text-white text-center py-2 px-3">
+              <h6 class="mb-0 fw-bold">15<br><small>JAN</small></h6>
+            </div>
+          </div>
+          <div class="card-body text-start">
+            <p class="text-muted small mb-2">
+              <i class="fa-solid fa-user me-1 text-danger"></i> By Plumer
+              <i class="fa-solid fa-tag ms-3 me-1 text-danger"></i> Kitchen Plumbing
+            </p>
+            <h5 class="fw-semibold">Revitalising your people in to a retail downturn.</h5>
+          </div>
+          <div class="card-footer bg-transparent border-0 text-start pb-4 ps-3">
+            <a href="#" class="btn btn-danger btn-sm rounded-0 text-uppercase fw-semibold px-4">Read More</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- footer section starts -->
+
+  <footer class="footer text-white">
+    <div class="container">
+      <div class="row gy-5">
+
+        <!-- Logo & Working Hours -->
+        <div class="col-lg-4 col-md-6">
+          <div class="logo-2 text-uppercase fw-bold fs-4">
+        <a class="text-light fs-3 fw-bold" href=""><i class="fa-solid fa-faucet-drip faucet"></i>Plumbio</a>
+      </div>
+          <p>A plumber is a tradesperson who specializes in installing, repairing.</p>
+          <div class="working-hours mt-4">
+            <h6 class="text-white fw-semibold mb-3">Working Hours:</h6>
+            <div class="d-flex justify-content-between">
+              <div>
+                <p>Mon - Fri</p>
+                <p>Saturday</p>
+                <p>Sunday</p>
+              </div>
+              <div class="text-end">
+                <p>8:00 AM - 6:00 PM</p>
+                <p>9:00 AM - 5:00 PM</p>
+                <p>Closed</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Subscribe + Links -->
+        <div class="col-lg-8 col-md-6">
+          <div class="row mb-4">
+            <div class="col-12">
+              <h5 class="fw-semibold text-white mb-3">Sign Up to get updates & news about us.</h5>
+              <form class="d-flex flex-column flex-md-row">
+                <input type="email" class="form-control subscribe-input me-md-2" placeholder="Email Address" required>
+                <button class="btn subscribe-btn mt-2 mt-md-0 px-4">Subscribe</button>
+              </form>
+            </div>
+          </div>
+
+          <div class="row">
+            <!-- Quick Links -->
+            <div class="col-md-4 mb-4">
+              <h6 class="footer-title">Quick Links</h6>
+              <ul class="list-unstyled mt-3">
+                <li><a href="#">→ Home</a></li>
+                <li><a href="./about.html">→ About Us</a></li>
+                <li><a href="./service.html">→ Services</a></li>
+                <li><a href="./blog.html">→ Blog</a></li>
+                <li><a href="./contact.html">→ Contact Us</a></li>
+              </ul>
+            </div>
+
+            <!-- Popular Services -->
+            <div class="col-md-4 mb-4">
+              <h6 class="footer-title">Popular Services</h6>
+              <ul class="list-unstyled mt-3">
+                <li><a href="#">→ Home Maintenance</a></li>
+                <li><a href="#">→ General Plumbing</a></li>
+                <li><a href="#">→ Carpentry</a></li>
+                <li><a href="#">→ Drainage Services</a></li>
+                <li><a href="#">→ Plumbing Design</a></li>
+              </ul>
+            </div>
+
+            <!-- Contact Us -->
+            <div class="col-md-4 mb-4">
+              <h6 class="footer-title">Contact Us</h6>
+              <ul class="list-unstyled mt-3">
+                <li class="mb-2">
+                  <i class="fa-solid fa-location-dot text-danger me-2"></i>
+                  445 S E St unit 12, Santa Rosa CA 95404, United States
+                </li>
+                <li class="mb-2">
+                  <i class="fa-solid fa-phone text-danger me-2"></i>
+                  <a href="tel:16326543564">+(163) 2654-3564</a>
+                </li>
+                <li class="mb-2">
+                  <i class="fa-solid fa-phone text-danger me-2"></i>
+                  <a href="tel:16326545432">+(163) 2654-5432</a>
+                </li>
+                <li>
+                  <i class="fa-solid fa-envelope text-danger me-2"></i>
+                  <a href="mailto:help24x7@plumer.com">help24x7@plumer.com</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <hr class="mt-5 mb-3">
+
+      <!-- Bottom -->
+      <div class="footer-bottom d-flex flex-column flex-md-row justify-content-between align-items-center">
+        <p class="mb-2 mb-md-0">Copyright © 2025 <span class="text-white">Plumbio</span>. All Rights Reserved.</p>
+        <div class="social-icons">
+          <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
+          <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+          <a href="https://linkedin.com" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+          <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./assets/js/script.js"></script>
+</body>
+</html>
+
+
+

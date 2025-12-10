@@ -1,0 +1,92 @@
+.skills-wrapper {
+  background:#FFE6D2;
+  padding:100px 0;
+}
+
+.skills-title {
+  text-align:center;
+  font-size:38px;
+  font-weight:900;
+  color:#111;
+  margin-bottom:60px;
+}
+
+.skills-grid {
+  display:grid;
+  grid-template-columns:repeat(auto-fit, minmax(160px,1fr));
+  gap:60px;
+  justify-items:center;
+}
+
+/* Wrapper for circle and progress */
+.skill-circle-wrapper {
+  position: relative;
+  width: 160px;
+  height: 160px;
+}
+
+/* White skill circle */
+.skill-circle {
+  background:#fff;
+  width:160px;
+  height:160px;
+  border-radius:50%;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
+  box-shadow:0px 10px 25px rgba(0,0,0,0.08);
+  transition:0.4s;
+  position: relative;
+  z-index: 1;
+}
+
+.skill-circle:hover{
+  transform:translateY(-8px);
+  box-shadow:0px 12px 35px rgba(0,0,0,0.15);
+}
+
+.skill-circle h4{
+  margin-top:10px;
+  font-size:16px;
+  font-weight:600;
+  color:#111;
+}
+
+.skill-icon{
+  font-size:40px;
+  color:#ff8a55;
+}
+
+/* Circular Progress outside the white circle */
+.progress-circle {
+  --size: 180px; /* slightly bigger than white circle */
+  --border: 6px;
+  --value: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: var(--size);
+  height: var(--size);
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  background: conic-gradient(
+    #ff8a55 calc(var(--value) * 1%), 
+    #ffe1cc 0
+  );
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  pointer-events: none;
+  z-index: 0;
+}
+
+/* Animated percentage text */
+.progress-percentage {
+  position: absolute;
+  bottom: -28px; /* outside the circle */
+  left: 50%;
+  transform: translateX(-50%);
+  font-weight: 700;
+  color: #ff8a55;
+}

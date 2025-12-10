@@ -1,0 +1,125 @@
+$flaticon-font: "flaticon";
+
+@font-face {
+    font-family: $flaticon-font;
+    src: url("./flaticon.ttf?798b834cf6f35b1643f2eaed810e30d2") format("truetype"),
+url("./flaticon.woff?798b834cf6f35b1643f2eaed810e30d2") format("woff"),
+url("./flaticon.woff2?798b834cf6f35b1643f2eaed810e30d2") format("woff2"),
+url("./flaticon.eot?798b834cf6f35b1643f2eaed810e30d2#iefix") format("embedded-opentype"),
+url("./flaticon.svg?798b834cf6f35b1643f2eaed810e30d2#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+$flaticon-map: (
+    "barber": "\f101",
+    "scissors": "\f102",
+    "straight-razor": "\f103",
+    "beauty-treatment": "\f104",
+    "hot-stones": "\f105",
+    "salon": "\f106",
+    "shampoo": "\f107",
+    "hot-stone": "\f108",
+    "treatment": "\f109",
+    "shaving-razor": "\f10a",
+    "hair-dye": "\f10b",
+    "beauty-salon": "\f10c",
+    "relax": "\f10d",
+    "massage": "\f10e",
+    "spa": "\f10f",
+    "yoga": "\f110",
+    "razor-blade": "\f111",
+    "quotation": "\f112",
+    "save-money": "\f113",
+    "home": "\f114",
+    "shopping-cart": "\f115",
+    "dumbbell": "\f116",
+    "fork": "\f117",
+    "soap": "\f118",
+    "medal": "\f119",
+);
+
+.flaticon-barber:before {
+    content: map-get($flaticon-map, "barber");
+}
+.flaticon-scissors:before {
+    content: map-get($flaticon-map, "scissors");
+}
+.flaticon-straight-razor:before {
+    content: map-get($flaticon-map, "straight-razor");
+}
+.flaticon-beauty-treatment:before {
+    content: map-get($flaticon-map, "beauty-treatment");
+}
+.flaticon-hot-stones:before {
+    content: map-get($flaticon-map, "hot-stones");
+}
+.flaticon-salon:before {
+    content: map-get($flaticon-map, "salon");
+}
+.flaticon-shampoo:before {
+    content: map-get($flaticon-map, "shampoo");
+}
+.flaticon-hot-stone:before {
+    content: map-get($flaticon-map, "hot-stone");
+}
+.flaticon-treatment:before {
+    content: map-get($flaticon-map, "treatment");
+}
+.flaticon-shaving-razor:before {
+    content: map-get($flaticon-map, "shaving-razor");
+}
+.flaticon-hair-dye:before {
+    content: map-get($flaticon-map, "hair-dye");
+}
+.flaticon-beauty-salon:before {
+    content: map-get($flaticon-map, "beauty-salon");
+}
+.flaticon-relax:before {
+    content: map-get($flaticon-map, "relax");
+}
+.flaticon-massage:before {
+    content: map-get($flaticon-map, "massage");
+}
+.flaticon-spa:before {
+    content: map-get($flaticon-map, "spa");
+}
+.flaticon-yoga:before {
+    content: map-get($flaticon-map, "yoga");
+}
+.flaticon-razor-blade:before {
+    content: map-get($flaticon-map, "razor-blade");
+}
+.flaticon-quotation:before {
+    content: map-get($flaticon-map, "quotation");
+}
+.flaticon-save-money:before {
+    content: map-get($flaticon-map, "save-money");
+}
+.flaticon-home:before {
+    content: map-get($flaticon-map, "home");
+}
+.flaticon-shopping-cart:before {
+    content: map-get($flaticon-map, "shopping-cart");
+}
+.flaticon-dumbbell:before {
+    content: map-get($flaticon-map, "dumbbell");
+}
+.flaticon-fork:before {
+    content: map-get($flaticon-map, "fork");
+}
+.flaticon-soap:before {
+    content: map-get($flaticon-map, "soap");
+}
+.flaticon-medal:before {
+    content: map-get($flaticon-map, "medal");
+}

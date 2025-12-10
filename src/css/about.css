@@ -1,0 +1,73 @@
+.about-container {
+  width: 100%;
+  min-height: 100vh;
+  background: #fff;   /* white */
+  padding: 100px 20px;
+}
+
+.about-title {
+  font-size: 54px;
+  font-weight: 900;
+  line-height: 1.1;
+  margin-bottom: 25px;
+  color: #000;
+}
+
+.about-desc {
+  font-size: 18px;
+  color: #444;
+  max-width: 550px;
+  margin-bottom: 40px;
+  line-height: 1.7;
+}
+
+/* bottom stats under text */
+.simple-stats {
+  display: flex;
+  gap: 40px;
+  margin-top: 40px;
+}
+
+.simple-stat span {
+  display: block;
+  font-size: 32px;
+  font-weight: 800;
+}
+
+.simple-stat p {
+  font-size: 14px;
+  color: #555;
+}
+
+/* years big right */
+.years-box {
+  font-size: 80px;
+  font-weight: 900;
+  color: #000;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.years-box small {
+  font-size: 28px;
+  color: #666;
+}
+
+/* email bar */
+.email-bar {
+  background: #000;
+  padding: 22px 35px;
+  color: #fff;
+  border-radius: 12px;
+  width: fit-content;
+  margin-top: 40px;
+  font-size: 20px;
+  display: inline-block;
+}
+
+.email-bar span {
+  font-size: 12px;
+  color: #ffc107;
+  letter-spacing: 2px;
+}
